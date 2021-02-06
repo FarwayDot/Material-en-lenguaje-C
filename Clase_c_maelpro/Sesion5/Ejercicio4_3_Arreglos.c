@@ -1,6 +1,6 @@
 /*Ejercicio 4.3 Arreglos*/
 
-/*Inclusión de librerías*/
+/*Inclusiï¿½n de librerï¿½as*/
 #include <stdio.h>
 #include <stdint.h>
 
@@ -11,10 +11,10 @@
 /*Variables Globales*/
 uint16_t Buffer[]={};
 
-/*Declaración de funcioens*/
+/*Declaraciï¿½n de funcioens*/
 uint16_t Numero_Mayor(uint16_t a[]);
 
-/*Función principal*/
+/*Funciï¿½n principal*/
 void main(){
 	
 	uint8_t num=0; 
@@ -32,13 +32,13 @@ void main(){
 	}
 	
 	buff = Numero_Mayor(Buffer);
-	printf("Número Mayor: %d",buff);
+	printf("Nï¿½mero Mayor: %d",buff);
 	
 	/*Ejercicio 5*/
 	
 }
 
-/*Definición de funciones*/
+/*Definiciï¿½n de funciones*/
 uint16_t Numero_Mayor(uint16_t a[]){
 	
 	uint8_t num=0;
@@ -46,8 +46,8 @@ uint16_t Numero_Mayor(uint16_t a[]){
 	
 	for(num=0;num<SIZE;num++){
 		
-		if(Buffer[num]>=max){
-			max=Buffer[num];
+		if(a[num]>=max){
+			max=a[num];
 		}
 		
 	}
