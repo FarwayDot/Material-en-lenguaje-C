@@ -1,0 +1,8 @@
+47. Determinar si un número es par o impar
+48. Hacer un programa que muestre un menu con las opciones
+	sumar, restar, multiplicar y dividir, el 
+	programa solicitará una opción y realizará la tarea
+	elegida, se debe usar un procedimiento.
+49. Hacer una funcion que pida por pantalla una temperatura
+	en grados Celcius y muestre un menu para convertirlo a
+	Fahrenheit o Kelvin
